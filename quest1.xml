@@ -1,0 +1,60 @@
+<!--Задание-->
+Задача №1: проверить XML на Well formed:
+
+<req?>
+
+    <surname>Иванов</surname>
+
+    <name>Иван</name>
+
+    <patronymic>Иванович</patronymic>
+
+    <birthdate>01.01.1990</birthdate>
+
+    <birthplace>Москва</birthplace>
+
+    <phone>8 926 766 48 48</phone>
+
+</req>
+
+<!--Решение c расширением-->
+<users_card>
+    <users>
+        <user>
+            <user_name>
+                <surname>Иванов</surname>
+                <name>Иван</name>
+                <patronymic>Иванович</patronymic>
+            </user_name>
+            <birthdate_and_birthplace>
+                <birthdate>01.01.1990</birthdate>
+                <birthplace>Москва</birthplace>
+            </birthdate_and_birthplace>
+            <user_phones>
+                <phone>8 926 766 48 48</phone> 
+                <phone>8 922 766 48 48</phone> 
+                <phone>8 926 766 58 48</phone> 
+            </user_phones>
+            
+        </user>
+        <user>
+            <user_name>
+                <surname>Петров</surname>
+                <name>Петр</name>
+                <patronymic>Петрович</patronymic>
+            </user_name>
+            <birthdate_and_birthplace>
+                <birthdate>05.03.1993</birthdate>
+                <birthplace>Екатеринбург</birthplace>
+            </birthdate_and_birthplace>
+            <user_phones>
+                <phone>8 934 766 66 55</phone> 
+                <phone>8 922 724 48 78</phone> 
+                <phone>8 926 766 58 98</phone> 
+            </user_phones>
+            
+        </user>
+    </users>
+    
+</users_card>
+    

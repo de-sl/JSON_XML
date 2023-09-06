@@ -1,0 +1,85 @@
+
+Задача №2: проверить JSON на Well formed:
+
+{
+
+    "surname": "Иванов"
+
+    "name": "Иван"
+
+    "patronymic": "Иванович"
+
+    "birthdate": "01.01.1990"
+
+    "birthplace": "Москва"
+
+    "phone": "8 926 766 48 48"
+
+}
+
+
+
+решение
+{
+    "users_card": {
+      "users":[
+        {
+          "user":[
+            {  
+              "user_name":[{"surname": "Иванов",
+                            "name": "Иван",
+                            "patronymic": "Иванович"
+                
+              },
+              {
+                "birthdate and birthplace":[
+                  {
+                  "birthdate": "01.01.1990",
+                  "birthplace": "Москва"
+                  
+                },
+                {
+                  "user phones":[{
+                    "phone": "8 926 766 48 48"
+                  }]
+                }]
+              }]
+              
+              
+              
+            }
+          ]
+          },
+          {"user":[
+            {  
+              "user_name":[{"surname": "Иванов",
+                            "name": "Иван",
+                            "patronymic": "Иванович"
+                
+              },
+              {
+                "birthdate and birthplace":[
+                  {
+                  "birthdate": "01.01.1990",
+                  "birthplace": "Москва"
+                  
+                },
+                {
+                  "user phones":[{
+                    "phone": "8 926 766 48 48"
+                  }]
+                }]
+              }]
+              
+              
+              
+            }
+          ]
+        }
+            ]
+        
+        
+    }
+      
+      
+  }
